@@ -1,0 +1,111 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    height: auto;
+    min-height: 250px;
+    min-width: 360px;
+    flex:1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top > .background {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top > img {
+    max-height: 300px;
+    max-height: 300px;
+}
+
+.top > .buttons {
+    min-width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top > Button {
+    width: 50px;
+}
+
+.middle {
+    min-height: 100px;
+    min-width: 360;
+    width: 2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.info {
+    min-height: 200px;
+    width: 320px;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > .number {
+    width: 90px;
+    height: 5vh;
+    border-radius: 25pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info > .name {
+    width: 340px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.info > .types {
+    width: 300px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    height: 12vh;
+    width: 95%;
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+

@@ -1,2 +1,1 @@
-# pokemon
-A pokedex
+My pokedex
